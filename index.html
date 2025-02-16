@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" class="css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>ANJ</span>ali</a>
+        <nav class="navbar">
+            <a href="#" class="active">Portfolio</a>
+            <a href="#">Home</a>
+            <a href="#About">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Project">Project</a>
+        </nav>
+        <a href="#Contact" class="contact">Contact Me</a>
+    </header>
+
+    <!---****About section****--->
+
+    <section class="about" id="About">
+        <div class="about-content">
+            <h3>Hi</h3>
+            <h1>I'm <span>Anjali Kumari <br></span>a Full Stack Developer</h1>
+            <p>Hello, This is Anjali Kumari a full stack developer passionated and dedicated about building innovative and user-friendly web application. Proficient in HTML, CSS, JavaScript, Java and modern frameworks like React and Node.js. I'm always easer to learn and explore new technologies,</p>
+
+            <div class="btn-box">
+                <a href="https://www.linkedin.com/in/Anjali Kumari" target="_blank"><button class="btn-1">Linkedin</button></a>
+                <a href="https://github.com/anjali-261" target=""><button class="btn-2">Github</button></a>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="anj.image.jpg" alt="Anjali image">
+        </div>
+    </section>
+
+    <!---****Skills section****--->
+    <section class="skills" id="Skills">
+        <h2><span>My Skills</span></h2>
+
+        <div class="cells">
+            <div class="cell">
+                <img src="html.jpg" alt="html logo">
+                <spans>HTML</spans>
+            </div>
+            
+            <div class="cell">
+                <img src="css.jpg" alt="css logo">
+                <spans>CSS</spans>
+            </div>
+
+            <div class="cell">
+                <img src="javascript.jpg" alt="javascript logo">
+                <spans>JavaScript</spans>
+            </div>
+
+            <div class="cell">
+                <img src="sql.jpg" alt="sql logo">
+                <spans>SQL</spans>
+            </div>
+
+            <div class="cell">
+                <img src="python.jpg" alt="python logo">
+                <spans>Python</spans>
+            </div>
+
+            <div class="cell">
+                <img src="java.jpg" alt="java logo">
+                <spans>Java</spans>
+            </div>
+
+            <div class="cell">
+                <img src="canva.jpg" alt="canva logo">
+                <spans>Canva</spans>
+            </div>
+        </div>
+    </section>
+       <!--**End of skills section**-->
+
+       <!---****Project Section****--->
+       <div class="projects">
+        <h2><span>My Projects</span></h2>
+       </div>
+
+    <section class="projects" id="Project">
+        <div class="project">
+            <div class="project_detail">
+                <div class="image_container">
+                    <img src="quizai.jpg" alt="QuizAi">
+                </div>
+                <div class="project_content">
+                    <h3>QuizAi</h3>
+                    <p>QuizAi is a website and web app for creating and taking quizzes.It is easy to use and helps quiz creators and very simple and intutive platform that anyone can use</p>
+                    <a href="http://"><i>https://quizai-eta.vercel.app</i></a>
+                </div>
+            </div>
+        </div>
+         
+        <div class="project">
+            <div class="project_detail">
+                <div class="image_container">
+                    <img src="careportal.jpg" alt="careportal">
+                </div>
+                <div class="project_content">
+                    <h3>CarePortal</h3>
+                    <p>CarePortal is a website which provides a simple platform for healthcare support.This website dedicated to providing comprehensive healthcare services tailored to meet the diverse needs of our community</p>
+                    <a href="http://"><i>https://careportal-a.vercel.app</i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--****End of project section****-->
+
+    <section class="resume" id="Resume">
+        <a href="AnjaliKumariResume.pdf" download>Download My Resume</a>
+    </section>
+
+    <!---****Contact section****--->
+
+    <section class="contct" id="Contact">
+        <h1 id="head">Contact Me</h1>
+        <p id="conSubheading">Below are the details to reach out to me!</p>
+        <div class="conBox">
+            <div id="box">
+                <a href="tel:7323921206" target="-blank"><i class="fa-solid fa-phone"></i></a>
+                <p id="content">CONTACT NUMBER</p>
+                <p id="details">+91 7323921206 <br> +91 9931220095</p>
+            </div>
+            <div id="box">
+                <a href="mailto:anjalikumari732392@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                <p id="content">EMAIL</p>
+                <p id="details">anjalikumari732392@gmail.com</p>
+            </div>
+        </div>
+        <div class="question">
+            <div id="heading">Have a Query?</div>
+            <form action="">
+                <label for="fname">Full Name <br> 
+                   <input type="text" id="fname" name="full_name" placeholder="Full Name" required /> 
+                </label> <br>
+
+                <label for="email">Email <br>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </label> <br>
+
+                <label for="mob">Phone Number <br>
+                    <input type="number" id="mob" name="number" placeholder="Mob no." required>
+                </label> <br>
+
+                <label for="sub"> Subject <br>
+                    <input type="text" id="sub" name="subject" placeholder="Subject..." required>
+                </label> <br>
+
+                <label for="mes" class="textarea">Message <br>
+                    <textarea name="message" name="message" id="mes" required></textarea>
+                </label> <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!--footer section-->
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/Anjali Kumari" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/anjali-261" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/anjali-261-aj261/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p>Copyright&copy;2025 Designed by : Anjali</p>
+    </footer>
+</body>
+</html>
